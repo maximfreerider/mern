@@ -59,6 +59,7 @@ export const AuthPage = (props) => {
                   name="email"
                   className="yellow-input"
                   onChange={changeHandler}
+                  value={form.email}
                   />
                 <label htmlFor="email">Email</label>
               </div>
@@ -71,6 +72,7 @@ export const AuthPage = (props) => {
                   name="password"
                   className="yellow-input"
                   onChange={changeHandler}
+                  value={form.password}
                   />
                 <label htmlFor="password">Password</label>
               </div>

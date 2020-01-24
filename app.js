@@ -7,6 +7,7 @@ const app = express();
 app.use(express.json({extended:true}))
 app.use('/api/auth', require('./routes/auth.routes'));
 app.use('/api/link', require('./routes/link.routes'));
+app.use('/t', require('./routes/redirect.routes'));
 
 // если порт не указан в конфиге, то порт будет определен на 5000
 const PORT = config.get('port') || 5000;

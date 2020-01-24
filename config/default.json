@@ -1,5 +1,6 @@
 {
   "port": 5000,
   "mongoUri":"mongodb+srv://maks:admin@cluster0-udsub.azure.mongodb.net/app?retryWrites=true&w=majority",
-  "jwtSecret": "maks mern"
+  "jwtSecret": "maks mern",
+  "baseUrl": "http://localhost:5000"
 }
